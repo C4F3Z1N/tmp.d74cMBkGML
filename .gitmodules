@@ -1,0 +1,7 @@
+[submodule "disko"]
+	path = disko
+	url = https://github.com/nix-community/disko.git
+[submodule "nixpkgs"]
+	path = nixpkgs
+	url = https://github.com/nixos/nixpkgs.git
+	branch = nixos-24.11
