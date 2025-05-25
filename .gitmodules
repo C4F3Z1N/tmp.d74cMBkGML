@@ -2,8 +2,19 @@
 	path = disko
 	url = https://github.com/nix-community/disko.git
 	shallow = true
+	nix-hash = sha256-kYL4GCwwznsypvsnA20oyvW8zB/Dvn6K5G/tgMjVMT4= # custom field added by nix-source;
 [submodule "nixpkgs"]
 	path = nixpkgs
 	url = https://github.com/nixos/nixpkgs.git
 	branch = nixos-23.11
 	shallow = true
+	nix-hash = sha256-zwVvxrdIzralnSbcpghA92tWu2DV2lwv89xZc8MTrbg= # custom field added by nix-source;
+[submodule "radicle-desktop"]
+	path = radicle-desktop
+	url = https://seed.radicle.garden/z4D5UCArafTzTQpDZNQRuqswh3ury.git
+	nix-hash = sha256-QkwoggOTnKT7eCREOaTCQ/+dgNNqwQz4IjoBo1EPA/A= # custom field added by nix-source;
+[submodule "nixpkgs-unstable"]
+	path = nixpkgs-unstable
+	url = https://github.com/nixos/nixpkgs.git
+	branch = nixos-unstable-small
+	nix-hash = sha256-YMIqRYPCpv1b6OMPW6oVtjFYjV+gTbviaGmpnO2QWU0= # custom field added by nix-source;
